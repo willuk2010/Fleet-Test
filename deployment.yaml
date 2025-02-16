@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: gotify
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
