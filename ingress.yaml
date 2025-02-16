@@ -10,11 +10,6 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`www.gotify.nixbox.co.uk`) # change to your domain
-      kind: Rule
-      services:
-        - name: gotify
-          port: 80
     - match: Host(`gotify.nixbox.co.uk`) # change to your domain
       kind: Rule
       services:
